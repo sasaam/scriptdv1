@@ -1,0 +1,227 @@
+Akbar 
+
+ServerA
+1. Network Configuration 		: not change hostname
+2. Repository 				: OK
+3. Debug Selinux	 		: httpd not installed/not active
+4. User Groups 				: OK
+5. Cronjob				: wrong script
+6. Colaborative Directory		: OK
+7. NTP					: OK
+8. Autofs 				: OK
+9. Tuned profile			: not change profile
+10. Find Files				: file not copied
+11. Find Lines				: OK
+12. Archive				: OK
+15. Script				: no script found
+
+ServerB
+1. LVM					: OK
+2. Resize				: not resized
+3. Swap					: no swap found
+
+Completion 7
+--------------------------------------------------------------
+
+Budi
+
+ServerA
+1. Network Configuration 		: not change hostname
+2. Repository 				: OK
+3. Debug Selinux	 		: OK
+4. User Groups 				: OK
+5. Cronjob				: no cronjob
+6. Colaborative Directory		: OK
+7. NTP					: OK
+8. Autofs 				: OK
+9. Tuned profile			: OK
+10. Find Files				: file not copied
+11. Find Lines				: result not valid
+12. Archive				: OK
+15. Script				: no script found
+
+ServerB
+1. LVM					: not configure
+2. Resize				: not configure
+3. Swap					: not configure
+
+Completion 8
+--------------------------------------------------------------
+
+Cindy
+
+ServerA
+1. Network Configuration 		: not change hostname
+2. Repository 				: OK
+3. Debug Selinux	 		: curl failed
+4. User Groups 				: tom not belongs to sales
+5. Cronjob				: no cronjob
+6. Colaborative Directory		: wrong permission & user owner
+7. NTP					: wrong configuration
+8. Autofs 				: no autofs
+9. Tuned profile			: not configure
+10. Find Files				: file not copied
+11. Find Lines				: result not valid
+12. Archive				: OK
+15. Script				: no script found
+
+ServerB
+1. LVM					: not configure
+2. Resize				: not configure
+3. Swap					: not configure
+
+Completion 2
+--------------------------------------------------------------
+
+Yogi
+
+ServerA
+1. Network Configuration 		: not change hostname
+2. Repository 				: OK
+3. Debug Selinux	 		: OK
+4. User Groups 				: OK
+5. Cronjob				: OK
+6. Colaborative Directory		: OK
+7. NTP					: OK
+8. Autofs 				: no autofs
+9. Tuned profile			: OK
+10. Find Files				: file not copied
+11. Find Lines				: result not found
+12. Archive				: no archived
+15. Script				: no script found
+
+ServerB
+1. LVM					: not configure
+2. Resize				: not configure
+3. Swap					: not configure
+
+Completion 7
+--------------------------------------------------------------
+
+bella
+
+Not Attend
+--------------------------------------------------------------
+
+Rizan
+ServerA
+1. Network Configuration 		: not change hostname
+2. Repository 				: OK
+3. Debug Selinux	 		: OK
+4. User Groups 				: OK
+5. Cronjob				: OK
+6. Colaborative Directory		: wrong permission
+7. NTP					: OK
+8. Autofs 				: OK
+9. Tuned profile			: OK
+10. Find Files				: file not copied
+11. Find Lines				: result not found
+12. Archive				: no archived
+15. Script				: no script found
+
+ServerB
+1. LVM					: OK
+2. Resize				: OK
+3. Swap					: OK
+
+Completion 10
+--------------------------------------------------------------
+
+Hakim
+ServerA
+1. Network Configuration 		: not change hostname / wrong subnet
+2. Repository 				: OK
+3. Debug Selinux	 		: httpd not installed/not active
+4. User Groups 				: OK
+5. Cronjob				: no cronjob
+6. Colaborative Directory		: no directory
+7. NTP					: OK
+8. Autofs 				: no autofs
+9. Tuned profile			: no tuned
+10. Find Files				: file not copied
+11. Find Lines				: file not found
+12. Archive				: archive not found
+15. Script				: no script found
+
+ServerB
+1. LVM					: wrong configure
+2. Resize				: not configure
+3. Swap					: not configure
+
+Completion 3
+--------------------------------------------------------------
+
+Andika
+ServerA
+1. Network Configuration 		: not change hostname
+2. Repository 				: OK
+3. Debug Selinux	 		: httpd not installed/not active
+4. User Groups 				: OK
+5. Cronjob				: no cronjob
+6. Colaborative Directory		: no directory
+7. NTP					: OK
+8. Autofs 				: no autofs
+9. Tuned profile			: no tuned
+10. Find Files				: file not copied
+11. Find Lines				: file not found
+12. Archive				: archive not found
+15. Script				: no script found
+
+ServerB
+1. LVM					: not configure
+2. Resize				: not configure
+3. Swap					: not configure
+
+
+Completion 3
+--------------------------------------------------------------
+
+Fariq
+
+ServerA
+1. Network Configuration 		: not change hostname
+2. Repository 				: OK
+3. Debug Selinux	 		: httpd not installed/not active
+4. User Groups 				: tom not include in sales group , jack uid incorrect
+5. Cronjob				: no cronjob
+6. Colaborative Directory		: incorrect user owner
+7. NTP					: OK
+8. Autofs 				: OK
+9. Tuned profile			: incorrect mount point 
+10. Find Files				: file not copied
+11. Find Lines				: file not found
+12. Archive				: no archive found
+15. Script				: no script found
+
+ServerB
+1. LVM					: not configure
+2. Resize				: not configure
+3. Swap					: not configure
+
+Completion 3
+--------------------------------------------------------------
+
+Regia
+ServerA
+1. Network Configuration 		: not change hostname
+2. Repository 				: OK
+3. Debug Selinux	 		: httpd not installed/not active
+4. User Groups 				: OK
+5. Cronjob				: OK
+6. Colaborative Directory		: OK
+7. NTP					: OK
+8. Autofs 				: OK
+9. Tuned profile			: OK
+10. Find Files				: file not copied
+11. Find Lines				: OK
+12. Archive				: OK
+15. Script				: no script found
+
+ServerB
+1. LVM					: OK
+2. Resize				: OK
+3. Swap					: OK
+
+Completion 12
+--------------------------------------------------------------
+

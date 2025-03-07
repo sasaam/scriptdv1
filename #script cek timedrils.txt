@@ -1,0 +1,156 @@
+#script cek timedrils 
+
+#!/bin/bash
+
+echo "1. NMCLI"
+nmcli con sh | grep eth0
+echo "###"
+
+ip a | grep inet
+echo "###"
+
+hostname
+history | grep hostnamectl
+echo "###"
+
+
+echo ""
+
+echo "2.repository"
+dnf config-manager --disable rhel-9.0-for-x86_64-appstream-rpms > /dev/null
+dnf config-manager --disable rhel-9.0-for-x86_64-baseos-rpms > /dev/null
+dnf update
+echo "###"
+
+echo ""
+
+echo "3.debugging selinux"
+systemctl is-active httpd.service
+curl servera.lab.example.com:5542
+echo "###"
+
+echo "" 
+
+echo "4.user & groups"
+cat /etc/group | grep sales
+echo "###"
+
+cat /etc/passwd | grep tom ; cat /etc/passwd | grep jack 
+echo "###"
+
+
+echo ""
+
+echo "5.cronjob"
+crontab -u tom -l 
+
+echo "###"
+
+
+echo ""
+
+echo "6.colaborative directory"
+ls -ld /tmp/data 
+echo "###"
+
+echo ""
+
+echo "7.NTP"
+cat /etc/chrony.conf | grep classroom
+echo "###"
+
+
+echo ""
+
+echo "8.autofs"
+df -h | grep serverb
+ls /home/tom
+echo "###"
+
+echo ""
+
+echo "9.tuned profile"
+history | grep tuned-adm
+tuned-adm active
+echo "###"
+
+
+echo ""
+
+echo "10. find files"
+ls /tmp/data
+echo echo "###"
+
+
+echo "" 
+
+echo "11. find lines"
+grep /sbin/nologin /etc/passwd | wc -l ; cat /tmp/data/lines | wc -l
+echo echo "###"
+
+
+echo "" 
+
+echo "12. find lines"
+file /tmp/data/dragon_eggs.tar.gz
+echo echo "###"
+
+
+echo "" 
+
+echo "" 
+
+echo "15. script"
+cat /usr/local/bin/getmenow
+ls /tmp/data/found
+echo echo "###"
+
+
+echo "" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------
+
+serverb
+
+
+echo "1. LVM"
+lsblk | grep centos
+vgs
+lvs
+echo echo "###"
+
+
+echo "" 
+
+echo "2. resize"
+history | grep lvextend
+echo echo "###"
+
+
+echo "" 
+
+echo "3. swap"
+lsblk | grep swap
+echo echo "###"
+
+
+echo "" 
+
+
+
+
+
+

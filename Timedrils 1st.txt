@@ -1,0 +1,184 @@
+Akbar 
+ServerA
+1. Network Configuration 		: pass (100%)
+2. Repository 				: pass (100%)
+3. Install software packages 		: no pass (50%) - not install chronyd
+4. User Groups 				: pass (100%)
+5. Collaborative Directory		: no pass (50%) - no special permission
+6. NTP					: no pass (0%) - not setup
+7. Find String 				: pass (100%)
+8. Archive 				: no pass (0%) - no file
+ServerB
+1. SSH					: no pass (0%) - still ask password
+2. Repository 				: pass (100%) 
+3. Install Software Packages 		: pass (100%)
+
+Completion 6
+--------------------------------------------------------------
+
+Budi
+
+ServerA
+1. Network Configuration 		: pass (100%)
+2. Repository 				: pass (100%)
+3. Install software packages 		: no pass (50%) - not install chronyd
+4. User Groups 				: pass (100%)
+5. Collaborative Directory		: no pass (50%) - no special permission
+6. NTP					: no pass (0%) - not setup
+7. Find String 				: pass (50%) - no grep sbin/nologin
+8. Archive 				: no pass (0%) - no file
+ServerB
+1. SSH					: no pass (0%) - still ask password
+2. Repository 				: pass (100%) 
+3. Install Software Packages 		: pass (100%)
+
+Completion 6
+--------------------------------------------------------------
+
+Cindy
+
+ServerA
+1. Network Configuration 		: pass (100%)
+2. Repository 				: pass (100%)
+3. Install software packages 		: no pass (50%) - not install chronyd
+4. User Groups 				: pass (100%)
+5. Collaborative Directory		: pass (100%)
+6. NTP					: no pass (0%) - not setup
+7. Find String 				: pass (50%) - grep sbin/nologin not match
+8. Archive 				: pass (100%)
+ServerB
+1. SSH					: no pass (0%) - wrong configure ssh config
+2. Repository 				: no pass (100%) - fail ssh but correct
+3. Install Software Packages 		: no pass (100%) - fail ssh but correct
+
+Completion 6
+--------------------------------------------------------------
+
+Yogi
+
+ServerA
+1. Network Configuration 		: pass (100%)
+2. Repository 				: pass (100%)
+3. Install software packages 		: no pass (50%) - not install chronyd
+4. User Groups 				: no pass (70%) - sarah include on sysadmin group
+5. Collaborative Directory		: no pass (50%) - no special permission
+6. NTP					: pass (100%)
+7. Find String 				: pass (50%) - no grep sbin/nologin
+8. Archive 				: no pass (0%) - no file
+ServerB
+1. SSH					: no pass (0%) - still ask password
+2. Repository 				: pass (100%) 
+3. Install Software Packages 		: no pass (0%) - nmap not installed
+
+Completion 5
+--------------------------------------------------------------
+
+bella
+
+ServerA
+1. Network Configuration 		: pass (100%)
+2. Repository 				: no pass (0%) - repo failed
+3. Install software packages 		: no pass (0%) - not install chronyd & httpd
+4. User Groups 				: no pass (10%) - only create group
+5. Collaborative Directory		: no pass (0%) - no folder
+6. NTP					: no pass (0%) - not setup
+7. Find String 				: no pass (0%) - no file
+8. Archive 				: no pass (0%) - no file
+ServerB
+1. SSH					: no pass (0%) - still ask password
+2. Repository 				: no pass (0%) - not setup
+3. Install Software Packages 		: no pass (0%) - not installed
+
+Completion 1
+--------------------------------------------------------------
+
+Rizan
+ServerA
+1. Network Configuration 		: pass (100%)
+2. Repository 				: pass (100%)
+3. Install software packages 		: no pass (50%) - not install chronyd
+4. User Groups 				: pass (100%)
+5. Collaborative Directory		: pass (100%)
+6. NTP					: pass (100%)
+7. Find String 				: pass (100%)
+8. Archive 				: pass (100%)
+ServerB
+1. SSH					: no pass (0%) - wrong configure ssh config
+2. Repository 				: no pass (100%) - fail ssh but correct
+3. Install Software Packages 		: no pass (100%) - fail ssh but correct
+
+Completion 7
+--------------------------------------------------------------
+
+Hakim
+ServerA
+1. Network Configuration 		: no pass (0%) - not setup
+2. Repository 				: no pass (0%) - repo failed
+3. Install software packages 		: no pass (0%) - not install chronyd & httpd
+4. User Groups 				: no pass (50%) - wrong configure sarah
+5. Collaborative Directory		: no pass (20%) - wrong permission
+6. NTP					: no pass (0%) - not setup
+7. Find String 				: no pass (0%) - no file
+8. Archive 				: no pass (0%) - no file
+ServerB
+1. SSH					: no pass (0%) - not configured
+2. Repository 				: no pass (0%) - repo not setup
+3. Install Software Packages 		: no pass (0%) - install with default repo
+
+Completion 0
+--------------------------------------------------------------
+
+Andika
+ServerA
+1. Network Configuration 		: pass (100%)
+2. Repository 				: pass (100%)
+3. Install software packages 		: no pass (50%) - not install chronyd
+4. User Groups 				: pass (100%)
+5. Collaborative Directory		: pass (100%)
+6. NTP					: no pass (0%) - not setup
+7. Find String 				: pass (100%)
+8. Archive 				: no pass (0%) - no file
+ServerB
+1. SSH					: no pass (0%) - not configured
+2. Repository 				: no pass (0%) - repo not setup
+3. Install Software Packages 		: no pass (0%) - not installed
+
+Completion 5
+--------------------------------------------------------------
+
+Fariq
+ServerA
+1. Network Configuration 		: pass (100%) 
+2. Repository 				: no pass (50%) - repo failed
+3. Install software packages 		: no pass (50%) - not install chronyd
+4. User Groups 				: no pass (50%) - sarah not /sbin/nologin
+5. Collaborative Directory		: no pass (0%) - no directory
+6. NTP					: no pass (0%) - not setup
+7. Find String 				: no pass (0%) - no file
+8. Archive 				: no pass (0%) - no file
+ServerB
+1. SSH					: no pass (0%) - not configured
+2. Repository 				: no pass (0%) - repo not setup
+3. Install Software Packages 		: no pass (0%) - not installed
+
+Completion 1
+--------------------------------------------------------------
+
+Regia
+ServerA
+1. Network Configuration 		: pass (100%) 
+2. Repository 				: pass (100%)
+3. Install software packages 		: no pass (50%) - not install chronyd
+4. User Groups 				: pass (100%)
+5. Collaborative Directory		: pass (100%)
+6. NTP					: no pass (0%) - not setup
+7. Find String 				: no pass (0%) - no file
+8. Archive 				: no pass (0%) - no file
+ServerB
+1. SSH					: no pass (0%) - not configured
+2. Repository 				: pass (100%)
+3. Install Software Packages 		: pass (100%)
+
+Completion 6
+--------------------------------------------------------------
+
